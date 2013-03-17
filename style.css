@@ -1,16 +1,87 @@
 body
 {
-	background : #DDDDDD;
+	font-size : 12px;
+	line-height : 18px;
 	text-align : justify;
+	margin : auto;
+	border : auto;
+	padding : auto;
+	background : #DDDDDD;
 }
 
-#Header, #Container
+h1
+{
+	font-size : 50px;
+}
+
+a:link
+{
+	color : #993300;
+	text-decoration : none;
+}
+
+a:link #Auxilliar
+{
+	color : #999999;
+	text-decoration : none;
+}
+
+a:visited
+{
+	color : #663300;
+	text-decoration : none;
+}
+
+a:hover, a:active
+{
+	color : #CC3300;
+	text-decoration : none;
+}
+
+#Strip
+{
+	width : auto;
+	height : 90px;
+	background : #006633;
+	border : 1px solid #006633;
+}
+
+#Header
 {
 	width : 760px;
-	margin : 10px auto;
-	padding-left : 25px;
-	padding-right : 25px;
-	border : 5px solid black;
+	margin : 0px auto;
+	padding : 0px auto;
+	color : #DDDDDD;
+}
+
+#Container
+{
+	width : 760px;
+	margin : 0px auto;
+	padding-left : 40px;
+	padding-right : 40px;
 	background : #FFFFFF;
+	border : 1px solid #FFFFFF;
+}
+
+#Topic
+{
+	margin-top : 30px;
+	margin-bottom : 30px;
+}
+
+#Footer
+{
+	width : 760px;
+	margin : 0px auto;
+	padding : 0px auto;
+	color : #DDDDDD;
+	text-align : right;
+}
+
+a:link #Footer
+{
+	color : #BBBBBB;
+	text-decoration : none;
 }
 
