@@ -1,0 +1,36 @@
+<html>
+	
+	<head>
+		<script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/1.7.2/jquery.min.js"></script>
+		<script type="text/javascript" src="js/flipit.js"></script>
+		<script type="text/javascript" src="js/drawflipit.js"></script>
+		<!-- Start flipit.js once the document loads -->
+		<script type="text/javascript">
+			$(document).ready(function(){
+				var numTicksShort = 1000;
+				var msPerTickFast = 1;
+				var config = new RenderSettings( $("#gameBoard") ); 
+				config.numticks = numTicksShort;
+				var gDraw = new FlipItRenderEngine( config );
+				var game = new FlipItGame( gDraw, 
+					Players["randomPlayer"], Players["periodicPlayer"] );
+				game.newGame();
+				game.start( msPerTickFast, numTicksShort );
+			});
+		</script>
+	</head>
+	
+	<title>
+		FlipIt - The Game of Stealthy Takeover Example 1
+	</title>
+	
+	<body>
+		<canvas id="gameBoard" width="760" height="150">
+			<h1>
+				Canvas element not supported by your browser. Use an HTML5 compatible browser like Chrome or Firefox.
+			</h1>
+		</canvas>
+	</body>
+	
+</html>
+

@@ -16,19 +16,13 @@ h1
 
 a:link
 {
-	color : #993300;
-	text-decoration : none;
-}
-
-a:link #Auxilliar
-{
-	color : #999999;
+	color : #AA3300;
 	text-decoration : none;
 }
 
 a:visited
 {
-	color : #663300;
+	color : #883300;
 	text-decoration : none;
 }
 
@@ -54,6 +48,34 @@ a:hover, a:active
 	color : #DDDDDD;
 }
 
+#NavigationBarStrip
+{
+	width : auto;
+	background : #CCEE88;
+	border : 1px solid #CCEE88;
+}
+
+#NavigationBar
+{
+	width : 760px;
+	margin : 0px auto;
+	font-size : 20px;
+}
+
+#NavigationBar ul
+{
+	list-style-type : none;
+	margin-left : 0px;
+	margin-right : 0px;
+	padding : 0px;
+}
+
+#NavigationBar li
+{
+	padding-right : 40px;
+	display : inline;
+}
+
 #Container
 {
 	width : 760px;
@@ -77,11 +99,5 @@ a:hover, a:active
 	padding : 0px auto;
 	color : #DDDDDD;
 	text-align : right;
-}
-
-a:link #Footer
-{
-	color : #BBBBBB;
-	text-decoration : none;
 }
 
