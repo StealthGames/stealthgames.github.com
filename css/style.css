@@ -1,7 +1,7 @@
 body
 {
 	font-family : Arial, Helvetica, sans-serif;
-	font-size : 12px;
+	font-size : 14px;
 	line-height : 18px;
 	text-align : justify;
 	margin : auto;
@@ -15,27 +15,24 @@ h1
 	font-size : 50px;
 }
 
-a:link
+a:link, a:visited
 {
-	color : #AA3300;
-	text-decoration : none;
-}
-
-a:visited
-{
-	color : #883300;
+	color : #006633;
 	text-decoration : none;
 }
 
 a:hover, a:active
 {
-	color : #CC3300;
+	color : #002211;
 	text-decoration : none;
 }
 
 #Strip
 {
-	width : auto;
+	width : 760px;
+	margin : auto;
+	padding-left : 40px;
+	padding-right : 40px;
 	height : 90px;
 	background : #006633;
 	border : 1px solid #006633;
@@ -51,7 +48,10 @@ a:hover, a:active
 
 #NavigationBarStrip
 {
-	width : auto;
+	width : 760px;
+	margin : auto;
+	padding-left : 40px;
+	padding-right : 40px;
 	background : #CCEE88;
 	border : 1px solid #CCEE88;
 }
