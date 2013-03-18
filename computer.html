@@ -6,19 +6,20 @@
 		<script src="js/drawflipit.js"></script>
 		<!-- Start flipit.js once the document loads -->
 		<script type="text/javascript">
-			function Function()
+			function simulate()
 			{
 				var numTicksShort = 970;
 				var msPerTickFast = 1;
-				var config = new RenderSettings($("#gameBoard")); 
-				config.numticks = numTicksShort;
-				var gDraw = new FlipItRenderEngine( config );
+				var config = new RenderSettings();
+					config.board = $("#board");
+					config.numticks = numTicksShort;
+				var gDraw = new FlipItRenderEngine(config);
 				var game = new FlipItGame(gDraw, Players["randomPlayer"], Players["periodicPlayer"]);
 				game.newGame();
 				game.start(msPerTickFast, numTicksShort);
 
 			}
-			$(document).ready(Function);
+			$(document).ready(simulate);
 		</script>
 	</head>
 	
@@ -27,7 +28,7 @@
 	</title>
 	
 	<body>
-		<canvas id="gameBoard" width="690" height="150">
+		<canvas id="board" width="690" height="150">
 			<h1>
 				Canvas element not supported by your browser. Use an HTML5 compatible browser like Chrome or Firefox.
 			</h1>
