@@ -7,7 +7,7 @@ body
 	margin : auto;
 	border : auto;
 	padding : auto;
-	background : #DDDDDD;
+	background : #F0F0F0;
 }
 
 h1
@@ -43,7 +43,7 @@ a:hover, a:active
 	width : 700px;
 	margin : 0px auto;
 	padding : 0px auto;
-	color : #DDDDDD;
+	color : #F0F0F0;
 }
 
 #NavigationBarStrip
