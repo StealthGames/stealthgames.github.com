@@ -29,10 +29,10 @@ a:hover, a:active
 
 #Strip
 {
-	width : 760px;
+	width : 700px;
 	margin : auto;
-	padding-left : 40px;
-	padding-right : 40px;
+	padding-left : 34px;
+	padding-right : 34px;
 	height : 90px;
 	background : #006633;
 	border : 1px solid #006633;
@@ -40,7 +40,7 @@ a:hover, a:active
 
 #Header
 {
-	width : 760px;
+	width : 700px;
 	margin : 0px auto;
 	padding : 0px auto;
 	color : #DDDDDD;
@@ -48,17 +48,17 @@ a:hover, a:active
 
 #NavigationBarStrip
 {
-	width : 760px;
+	width : 700px;
 	margin : auto;
-	padding-left : 40px;
-	padding-right : 40px;
+	padding-left : 34px;
+	padding-right : 34px;
 	background : #CCEE88;
 	border : 1px solid #CCEE88;
 }
 
 #NavigationBar
 {
-	width : 760px;
+	width : 700px;
 	margin : 0px auto;
 	font-size : 20px;
 }
@@ -79,10 +79,10 @@ a:hover, a:active
 
 #Container
 {
-	width : 760px;
+	width : 700px;
 	margin : 0px auto;
-	padding-left : 40px;
-	padding-right : 40px;
+	padding-left : 34px;
+	padding-right : 34px;
 	background : #FFFFFF;
 	border : 1px solid #FFFFFF;
 }
@@ -95,7 +95,7 @@ a:hover, a:active
 
 #Footer
 {
-	width : 760px;
+	width : 700px;
 	margin : 0px auto;
 	padding : 0px auto;
 	color : #DDDDDD;
